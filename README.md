@@ -18,7 +18,7 @@ At the top of your `Makefile` add, the following...
 ```make
 -include $(shell curl -sSL -o .build-harness "https://git.io/build-harness"; echo .build-harness)
 
-git clone https://github.com/ChauAnhTuan/build-harness-extentions.git
+git clone https://github.com/ChauAnhTuan/build-harness-extensions.git
 ```
 
 This will download a `Makefile` called `.build-harness` and include it at run-time. We recommend adding the `.build-harness` file to your `.gitignore`.
