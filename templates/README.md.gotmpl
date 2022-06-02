@@ -141,7 +141,7 @@ For additional context, refer to some of these links.
 ### Contributors
 
 <!-- markdownlint-disable -->
-| {{ range $contributor := (ds "config").contributors }}{{ printf " [%s](%s) " $contributor.name $contributor.email}} {{ end }}
+| {{ range $contributor := (ds "config").contributors }}{{ printf " [%s](mailto:%s) " $contributor.name $contributor.email}} {{ end }}
 |{{- range $contributor := (ds "config").contributors -}}---|{{ end }}
 <!-- markdownlint-restore -->
 
